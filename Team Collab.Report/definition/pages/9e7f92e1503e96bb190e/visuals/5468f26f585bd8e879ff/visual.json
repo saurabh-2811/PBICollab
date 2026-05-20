@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
-  "name": "98d401759ac4d1b7f44c",
+  "name": "5468f26f585bd8e879ff",
   "position": {
-    "x": 167.52806305230476,
+    "x": 586.95963697157868,
     "y": 66.0329591593026,
-    "z": 0,
+    "z": 1,
     "height": 300.81681394793407,
-    "width": 280.028660138524,
-    "tabOrder": 0
+    "width": 299.59398137090994,
+    "tabOrder": 1
   },
   "visual": {
-    "visualType": "clusteredColumnChart",
+    "visualType": "lineChart",
     "query": {
       "queryState": {
         "Category": {
@@ -44,14 +44,14 @@
                           "Entity": "Table"
                         }
                       },
-                      "Property": "Total Amount"
+                      "Property": "Total Qty"
                     }
                   },
                   "Function": 0
                 }
               },
-              "queryRef": "Sum(Table.Total Amount)",
-              "nativeQueryRef": "Sum of Total Amount"
+              "queryRef": "Sum(Table.Total Qty)",
+              "nativeQueryRef": "Sum of Total Qty"
             }
           ]
         }
@@ -68,7 +68,7 @@
                         "Entity": "Table"
                       }
                     },
-                    "Property": "Total Amount"
+                    "Property": "Total Qty"
                   }
                 },
                 "Function": 0
@@ -81,42 +81,5 @@
       }
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "83038bf86ac2079c004a",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Table"
-              }
-            },
-            "Property": "Fruit"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "782c8d0d3b8bb1fafdb1",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "Table"
-                  }
-                },
-                "Property": "Total Amount"
-              }
-            },
-            "Function": 0
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }
