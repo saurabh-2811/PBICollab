@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Team Collab"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4a99cc84-f987-4b82-a8af-c5a844bf3377"
+  }
+}
